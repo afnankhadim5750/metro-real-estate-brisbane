@@ -1,6 +1,6 @@
 # Metro Real Estate Property Group
 
-Demo website concept for **Metro Real Estate Property Group** — Brisbane, Australia.
+Demo website concept for **Metro Real Estate Property Group** — Brisbane, QLD.
 
 Live preview: https://metro-real-estate-brisbane-mockup.netlify.app
 
