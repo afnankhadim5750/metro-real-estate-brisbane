@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gallery — Metro Real Estate Property Group, Brisbane</title>
+<meta name="description" content="Brisbane homes and interiors presented by Metro Real Estate Property Group.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap nav">
+    <a class="logo" href="index.html">Metro <span>Real Estate</span><small>Property Group · Brisbane</small></a>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false"><i class="bi bi-list"></i></button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="gallery.html" class="active">Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a class="nav-cta" href="contact.html">Free appraisal</a></li>
+    </ul>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="wrap">
+    <p class="kicker">Gallery</p>
+    <h1>Brisbane, beautifully at home</h1>
+    <p>Queenslanders, modern family homes and the river city we know street by street.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="gal">
+      <figure><img src="images/hero.webp" alt="Queenslander home at golden hour"><figcaption>Classic Queenslander charm</figcaption></figure>
+      <figure><img src="images/home-modern.webp" alt="Modern two-storey home"><figcaption>Modern family living</figcaption></figure>
+      <figure><img src="images/interior-living.webp" alt="Elegant living room"><figcaption>Light-filled interiors</figcaption></figure>
+      <figure><img src="images/interior-kitchen.webp" alt="Kitchen opening to a deck"><figcaption>Kitchens that gather everyone</figcaption></figure>
+      <figure><img src="images/skyline.webp" alt="Brisbane skyline at dusk"><figcaption>Our city — Brisbane</figcaption></figure>
+      <figure><img src="images/hero.webp" alt="Verandah home in warm light" style="object-position:bottom"><figcaption>Verandah afternoons</figcaption></figure>
+    </div>
+    <p style="margin-top:1.4rem;color:var(--soft);font-size:.85rem">Images are illustrative sample photography for design purposes.</p>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="wrap">
+    <h2>Your home could be next</h2>
+    <p>Start with a free appraisal and an honest conversation.</p>
+    <a class="btn btn-gold" href="contact.html">Request my appraisal</a>
+  </div>
+</section>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <h4>Metro Real Estate Property Group</h4>
+        <p style="font-size:.93rem">A boutique Brisbane agency with 17 years in business — sales, property management and appraisals.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Get in touch</h4>
+        <ul>
+          <li><i class="bi bi-telephone"></i> <a href="tel:+61731842300">+61 7 3184 2300</a></li>
+          <li><i class="bi bi-envelope"></i> <a href="mailto:brisbanerealestategroup@gmail.com">brisbanerealestategroup@gmail.com</a></li>
+          <li><i class="bi bi-geo-alt"></i> Brisbane, Queensland, Australia</li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© Metro Real Estate Property Group — design concept only.</span>
+      <span>17 years serving Brisbane</span>
+    </div>
+  </div>
+</footer>
+<div class="concept-badge"><i class="bi bi-pencil-square"></i> Design concept</div>
+<script>
+document.querySelector('.nav-toggle').addEventListener('click', function(){
+  var links = document.querySelector('.nav-links');
+  var open = links.classList.toggle('open');
+  this.setAttribute('aria-expanded', open);
+});
+</script>
+</body>
+</html>

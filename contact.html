@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — Metro Real Estate Property Group, Brisbane</title>
+<meta name="description" content="Contact Metro Real Estate Property Group, Brisbane. Call +61 7 3184 2300 for sales, management or a free appraisal.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap nav">
+    <a class="logo" href="index.html">Metro <span>Real Estate</span><small>Property Group · Brisbane</small></a>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false"><i class="bi bi-list"></i></button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+      <li><a class="nav-cta" href="contact.html">Free appraisal</a></li>
+    </ul>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="wrap">
+    <p class="kicker">Contact</p>
+    <h1>Let's talk about your property</h1>
+    <p>Selling, buying, leasing — or just wondering what your home is worth. Start the conversation here.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap contact-grid">
+    <div class="info-card">
+      <h3>Contact details</h3>
+      <div class="info-row"><i class="bi bi-telephone-fill"></i><div><b>Phone</b><a href="tel:+61731842300">+61 7 3184 2300</a></div></div>
+      <div class="info-row"><i class="bi bi-envelope-fill"></i><div><b>Email</b><a href="mailto:brisbanerealestategroup@gmail.com">brisbanerealestategroup@gmail.com</a></div></div>
+      <div class="info-row"><i class="bi bi-geo-alt-fill"></i><div><b>Location</b>Brisbane, Queensland, Australia</div></div>
+      <div class="info-row"><i class="bi bi-award-fill"></i><div><b>Experience</b>17 years in business · boutique agency</div></div>
+    </div>
+    <form class="demo-form" onsubmit="return false">
+      <label for="name">Your name</label>
+      <input id="name" type="text" placeholder="e.g. Sarah Thompson">
+      <label for="phone">Phone or email</label>
+      <input id="phone" type="text" placeholder="How should we reach you?">
+      <label for="topic">I'm interested in</label>
+      <select id="topic">
+        <option>A free appraisal of my home</option>
+        <option>Selling a property</option>
+        <option>Property management</option>
+        <option>Buying advice</option>
+        <option>Something else</option>
+      </select>
+      <label for="msg">Tell us more</label>
+      <textarea id="msg" rows="4" placeholder="Your suburb, property type and timing…"></textarea>
+      <button class="btn btn-gold" type="submit"><i class="bi bi-send-fill"></i> Send enquiry</button>
+    </form>
+  </div>
+</section>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <h4>Metro Real Estate Property Group</h4>
+        <p style="font-size:.93rem">A boutique Brisbane agency with 17 years in business — sales, property management and appraisals.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Get in touch</h4>
+        <ul>
+          <li><i class="bi bi-telephone"></i> <a href="tel:+61731842300">+61 7 3184 2300</a></li>
+          <li><i class="bi bi-envelope"></i> <a href="mailto:brisbanerealestategroup@gmail.com">brisbanerealestategroup@gmail.com</a></li>
+          <li><i class="bi bi-geo-alt"></i> Brisbane, Queensland, Australia</li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© Metro Real Estate Property Group — design concept only.</span>
+      <span>17 years serving Brisbane</span>
+    </div>
+  </div>
+</footer>
+<div class="concept-badge"><i class="bi bi-pencil-square"></i> Design concept</div>
+<script>
+document.querySelector('.nav-toggle').addEventListener('click', function(){
+  var links = document.querySelector('.nav-links');
+  var open = links.classList.toggle('open');
+  this.setAttribute('aria-expanded', open);
+});
+</script>
+</body>
+</html>
